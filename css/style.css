@@ -102,24 +102,30 @@ a:hover {
 .categoria-container img {
     -moz-transition: all 0.8s;
     -webkit-transition: all 0.8s;
-    transition: all 0.8s;
+	transition: all 0.8s;
+	
 }
 
 .categoria-container:hover img {
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.marcas-catalogo img {
+	width: 700px;
+	height: 350px;
 }
 
 .categoria-details {
-    position: absolute;
-    bottom: 25px;
-    left: 25px;
+	position: absolute;
+    top: 15px;
+    left: 380px;
     z-index: 9000;
 }
 
 .categoria-details a h2, .categoria-details a p {
-    color: #ffffff;
+    color: #1a1a1a;
 }
 
 #hero {
