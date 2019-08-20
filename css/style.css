@@ -40,6 +40,8 @@ a:hover {
 	margin-top: 60px;
 }
 
+/* Button Section */
+
 .btn {
 	font-size: 14px;
 	padding: 15px 26px;
@@ -59,9 +61,21 @@ a:hover {
 	margin-left: 5px;
 }
 
+/* End Button Section*/
+
+/* Logo Section */
+
 .logo-brand {
 	min-width: 180px;
 	max-width: 200px;
+}
+
+/* End Logo Section */
+
+/* Navbar Section */
+
+.navbar {
+	background-color: rgba(255, 255, 255, 0.932) !important;
 }
 
 .nav-link {
@@ -69,7 +83,11 @@ a:hover {
 }
 
 .nav-link:hover {
-	color: green;
+	color: rgba(12, 77, 23, 0.945);
+}
+
+.dropdown-item:hover {
+	color: rgba(28, 90, 38, 0.945);
 }
 
 .navbar-toggler {
@@ -79,6 +97,10 @@ a:hover {
 .navbar-toggler:focus {
 	outline: none;
 }
+
+/* End Navbar Section */
+
+
 
 .contacto {
 	min-width: 200px;
@@ -118,7 +140,6 @@ a:hover {
 }
 
 .categoria-details {
-	position: absolute;
     top: 15px;
     left: 380px;
     z-index: 9000;
@@ -135,6 +156,8 @@ a:hover {
 	min-height: 600px;
 	color: #ffffff;
 }
+
+/* Responsive Section */
 
 @media (max-width: 575.98px) {
 	h1 {
@@ -168,3 +191,5 @@ a:hover {
 		line-height: normal;
 	}
 }
+
+/* End Responsive Section */
