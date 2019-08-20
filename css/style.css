@@ -100,8 +100,6 @@ a:hover {
 
 /* End Navbar Section */
 
-
-
 .contacto {
 	min-width: 200px;
 	min-height: 200px;
@@ -140,13 +138,14 @@ a:hover {
 }
 
 .categoria-details {
+	position: absolute;
     top: 15px;
     left: 380px;
     z-index: 9000;
 }
 
 .categoria-details a h2, .categoria-details a p {
-    color: #1a1a1a;
+    color: #045008;
 }
 
 #hero {
