@@ -16,7 +16,12 @@ h1 {
 
 h2 {
     font-size: 40px;
-    margin-bottom: 30px;
+	margin-bottom: 30px;
+	color: navy;
+}
+
+h5 {
+	color: navy;
 }
 
 p {
@@ -62,7 +67,7 @@ a:hover {
 }
 
 .btn-green {
-	background-color:#007b5e;
+	background-color:#097dc5;
 	color: black;
 	border: 0 solid #007b5e;
 }
