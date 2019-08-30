@@ -211,15 +211,15 @@ section .section-title {
 
 #footer ul.social li a i {
     margin-right: 5px;
-	font-size:25px;
+	font-size: 20px;
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
 }
 
 #footer ul.social li:hover a i {
-	font-size:30px;
-	margin-top:-10px;
+	font-size: 30px;
+	margin-top: -5px;
 }
 
 #footer ul.social li a,
